@@ -19,8 +19,9 @@ Interface.ensureImplements = function(object) {
         throw new Error(`Function Interface.ensureImplements called with ${arguments.length} arguments, but expected at least 2.`);
     }
 
+    let interface;
     for (let i = 1, len = arguments.length; i < len; i ++) {
-        let interface = arguments[i];
+        interface = arguments[i];
         if (interface.constructor !== Interface) {
             throw new Error(`Function Interface.ensureImplements expects arguments two and above to be instaces of Interface.`);
         }
@@ -33,3 +34,5 @@ Interface.ensureImplements = function(object) {
         }
     }
 }
+
+module.exports = Interface;
