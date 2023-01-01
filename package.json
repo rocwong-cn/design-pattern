@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/rocwangv/design-pattern#readme",
   "dependencies": {
-    "source-map-loader": "^0.2.4",
-    "ts-loader": "^6.1.2",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.6.3",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^3.8.1"
   }
 }
